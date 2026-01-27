@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41de3074-f669-4b58-a4b0-2c126bdc4e38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ActividadBuenasPracticas/ActividadBuenasPracticas.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavadocMaldonadoAllison/JavadocMaldonadoAllison.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeWithConflict/MergeWithConflict.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeWithOutConflict/MergeWithOutConflict.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Test1/Test1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1GitConflictoPlus/U1GitConflictoPlus.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proyecto-01-hola-mundo/proyecto-01-hola-mundo.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="6f590aee-abba-4f89-b11e-1213928924c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,22 +10,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "allison-maldonado"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/allison-maldonado/-prog-str-2D-Allison-Maldonado-ok.git",
-    "accountId": "b91368e9-3cae-4e99-9db8-2f0d19c1e9a1"
-  }
-}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  "associatedIndex": 8
 }]]></component>
-  <component name="ProjectId" id="38p4wPh6mKJEVLIrG9syARP4BAc" />
+  <component name="ProjectId" id="38pEsvKK4gxHnXTnj1aiJSZpIVD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +26,7 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/macbookair/Desktop/programacion-estructurada-2D/-prog-str-2D-Allison-Maldonado-ok/ControlIfElseAllisonMaldonado/src/Main.java",
+    "onboarding.tips.debug.path": "/Users/macbookair/Documents/programacion-estructurada/-prog-str-2D-Allison-Maldonado-ok/ControlIfElseAllisonMaldonado/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,12 +40,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41de3074-f669-4b58-a4b0-2c126bdc4e38" name="Changes" comment="" />
-      <created>1769483419824</created>
+      <changelist id="6f590aee-abba-4f89-b11e-1213928924c0" name="Changes" comment="" />
+      <created>1769488325851</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769483419824</updated>
-      <workItem from="1769483421027" duration="3000" />
+      <updated>1769488325851</updated>
+      <workItem from="1769488327130" duration="2000" />
     </task>
     <servers />
   </component>
