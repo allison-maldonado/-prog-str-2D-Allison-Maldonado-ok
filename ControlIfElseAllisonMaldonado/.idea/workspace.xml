@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e728bd87-fd52-4a51-b7af-0e05fd3908b5" name="Changes" comment="">
+    <list default="true" id="41de3074-f669-4b58-a4b0-2c126bdc4e38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../ActividadBuenasPracticas/ActividadBuenasPracticas.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavadocMaldonadoAllison/JavadocMaldonadoAllison.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MergeWithConflict/MergeWithConflict.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MergeWithOutConflict/MergeWithOutConflict.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test1/Test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1GitConflictoPlus/U1GitConflictoPlus.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../proyecto-01-hola-mundo/proyecto-01-hola-mundo.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +18,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "allison-maldonado"
+  }
 }]]></component>
-  <component name="ProjectId" id="38f71fTcMoInXNM3nMcFcAKRiq8" />
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/allison-maldonado/-prog-str-2D-Allison-Maldonado-ok.git",
+    "accountId": "b91368e9-3cae-4e99-9db8-2f0d19c1e9a1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="38p4wPh6mKJEVLIrG9syARP4BAc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,34 +41,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/CC1/IdeaProjects/-prog-str-2D-Allison-Maldonado-ok/U1GitConflictoPlus/src/Main.java",
-    "to.speed.mode.migration.done": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/macbookair/Desktop/programacion-estructurada-2D/-prog-str-2D-Allison-Maldonado-ok/ControlIfElseAllisonMaldonado/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e728bd87-fd52-4a51-b7af-0e05fd3908b5" name="Changes" comment="" />
-      <created>1769178559730</created>
+      <changelist id="41de3074-f669-4b58-a4b0-2c126bdc4e38" name="Changes" comment="" />
+      <created>1769483419824</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1769178559730</updated>
-      <workItem from="1769178560856" duration="3000" />
+      <updated>1769483419824</updated>
+      <workItem from="1769483421027" duration="3000" />
     </task>
     <servers />
   </component>
