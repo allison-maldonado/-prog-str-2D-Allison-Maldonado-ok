@@ -16,19 +16,17 @@ public class ActividadSwitchCalculadora {
         System.out.print("Elige una opcion: ");
         int opcion = sc.nextInt();
 
-        // Pide los valores para las operaciones
-        System.out.print("Ingresa el valor de a: ");
-        double a = sc.nextDouble();
-
-        System.out.print("Ingresa el valor de b: ");
-        double b = sc.nextDouble();
-
-        double resultado;
+        double a, b, resultado;
 
         // Segun la opcion que se eligio se realizara la operacion
         switch (opcion) {
 
             case 1:
+                System.out.print("Ingresa el valor de a: ");
+                a = sc.nextDouble();
+                System.out.print("Ingresa el valor de b: ");
+                b = sc.nextDouble();
+
                 resultado = a + b;
                 System.out.println("Operacion elegida: Sumar");
                 System.out.println("Valores: a = " + a + ", b = " + b);
@@ -36,6 +34,11 @@ public class ActividadSwitchCalculadora {
                 break;
 
             case 2:
+                System.out.print("Ingresa el valor de a: ");
+                a = sc.nextDouble();
+                System.out.print("Ingresa el valor de b: ");
+                b = sc.nextDouble();
+
                 resultado = a - b;
                 System.out.println("Operacion elegida: Restar");
                 System.out.println("Valores: a = " + a + ", b = " + b);
@@ -43,6 +46,11 @@ public class ActividadSwitchCalculadora {
                 break;
 
             case 3:
+                System.out.print("Ingresa el valor de a: ");
+                a = sc.nextDouble();
+                System.out.print("Ingresa el valor de b: ");
+                b = sc.nextDouble();
+
                 resultado = a * b;
                 System.out.println("Operacion elegida: Multiplicar");
                 System.out.println("Valores: a = " + a + ", b = " + b);
@@ -50,14 +58,18 @@ public class ActividadSwitchCalculadora {
                 break;
 
             case 4:
+                System.out.print("Ingresa el valor de a: ");
+                a = sc.nextDouble();
+                System.out.print("Ingresa el valor de b: ");
+                b = sc.nextDouble();
+
+                System.out.println("Operacion elegida: Dividir");
+                System.out.println("Valores: a = " + a + ", b = " + b);
+
                 if (b == 0) {
-                    System.out.println("Operacion elegida: Dividir");
-                    System.out.println("Valores: a = " + a + ", b = " + b);
                     System.out.println("No se puede dividir entre cero");
                 } else {
                     resultado = a / b;
-                    System.out.println("Operacion elegida: Dividir");
-                    System.out.println("Valores: a = " + a + ", b = " + b);
                     System.out.println("Resultado: " + resultado);
                 }
                 break;
@@ -70,3 +82,4 @@ public class ActividadSwitchCalculadora {
         sc.close();
     }
 }
+
