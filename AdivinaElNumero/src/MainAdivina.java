@@ -1,3 +1,4 @@
+//https://github.com/allison-maldonado/-prog-str-2D-Allison-Maldonado-ok/tree/main/AdivinaElNumero
 import java.util.Random;
 import java.util.Scanner;
 
