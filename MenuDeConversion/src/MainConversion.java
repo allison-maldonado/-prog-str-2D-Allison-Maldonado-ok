@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainConversion {
 
     public static void main(String[] args) {
 
@@ -14,7 +14,7 @@ public class Main {
 
         do {
             System.out.println("Nuestro menu de conversiones");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opción: \n");
             System.out.println("1.- °C a °F");
             System.out.println("2.- °F a °C");
             System.out.println("3.- Km a Millas");
@@ -77,7 +77,7 @@ public class Main {
 
         } while (true);
 
-        int total = cyf + fyc + kmyk + myk;
+        int total = cyf + fyc + kmym + myk;
 
         System.out.println("Total de conversiones: " + total);
         System.out.println("°C a °F: " + cyf);
