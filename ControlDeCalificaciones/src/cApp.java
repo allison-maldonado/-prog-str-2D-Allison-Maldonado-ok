@@ -68,8 +68,8 @@ public class cApp {
 
     // Nuestro output
 
-    public static void imprimirReporte(String nombre, double califp1, double califp2, double califp3, double promedio, int asistencia, boolean entregaProyecto,
-                                       double finalCal, String estado) {
+    public static void imprimirReporte(String nombre, double califp1, double califp2, double califp3, double promedio, int asistencia,
+                                       boolean entregaProyecto, double finalCal, String estado) {
 
         System.out.println("El reporte final");
         System.out.println("Nombre del alumno: " + nombre);

@@ -1,6 +1,6 @@
-public class Ticket {
+public class Ticket1 {
 
-    public Ticket(){} //Constructor
+    public Ticket1(){} //Constructor
 
     private final double IVA=0.16;
     private final double PRECIO_PRODUCTO=10;
