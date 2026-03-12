@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 
 public class PersonFileRepository {
@@ -21,5 +22,9 @@ private void ensureFileExist() throws IOException {
     public List<String> readAllLines() throws IOException {
 ensureFileExist();
         return Files.readAllLines(filePath, StandardCharsets.UTF_8);
+    }
+    public void appendNewLine(String line) throws IOException{
+    Files.writeString(filePath,line+System.lineSeparator(),
+            StandardCharsets.UTF_8, StandardOpenOption.APPEND);
     }
 }
