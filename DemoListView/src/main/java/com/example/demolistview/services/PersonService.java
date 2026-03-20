@@ -34,6 +34,30 @@ public class PersonService {
         String emailNoComa = email.replace(",", "");
         repo.appendNewLine(nameNoComa + "," + emailNoComa + "," + age);
     }
+    public  void updatePerson (int index, String name, String email, String age) throws IOException {
+        List<String> lines = getAllCleanLines();
+        if (index == -1){
+            throw new IllegalArgumentException("Hola, el indice recibido es invalido");
+        }
+        lines.set(index, name+","+email+","+age);
+        repo.appendAllines(lines);
+    }
+    public void deletePerson(int index) throws IOException {
+        List<String> lines= getAllCleanLines();
+        lines.remove(index);
+        repo.appendAllines(lines);
+    }
+
+    private  List<String> getAllCleanLines() throws IOException {
+        List<String> lines= repo.readAllLines();
+        List<String> cleanLines= new ArrayList<>();
+        for (String line : lines){
+            if (line!=null && !line.isBlank()){
+                cleanLines.add(line);
+            }
+        }
+        return cleanLines;
+    }
 
     private void validatePerson(String name, String email, int age) {
         if (name == null || name.isBlank() || name.length() < 3) {
